@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("streammsg")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("streammsg")> 
-<Assembly: AssemblyCopyright("Copyright ©  2022")> 
+<Assembly: AssemblyTitle("live announcements thing")> 
+<Assembly: AssemblyDescription("type the thing then copy the things")> 
+<Assembly: AssemblyCompany("soafensoftware")> 
+<Assembly: AssemblyProduct("LAT")> 
+<Assembly: AssemblyCopyright("meow")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("2.0.0.0")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 
