@@ -60,17 +60,17 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Comic Sans MS", 10.0!)
-        Me.Label1.Location = New System.Drawing.Point(16, 135)
+        Me.Label1.Font = New System.Drawing.Font("Pink Chicken", 14.25!)
+        Me.Label1.Location = New System.Drawing.Point(16, 134)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 19)
+        Me.Label1.Size = New System.Drawing.Size(87, 23)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "description"
         '
         'Button1
         '
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Chewy", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(21, 222)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(127, 33)
@@ -92,31 +92,31 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Comic Sans MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(345, 10)
+        Me.Label2.Font = New System.Drawing.Font("Pink Chicken", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(353, 14)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(67, 26)
+        Me.Label2.Size = New System.Drawing.Size(56, 23)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Tweet"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Comic Sans MS", 14.25!)
-        Me.Label3.Location = New System.Drawing.Point(345, 137)
+        Me.Label3.Font = New System.Drawing.Font("Pink Chicken", 14.25!)
+        Me.Label3.Location = New System.Drawing.Point(353, 137)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(79, 26)
+        Me.Label3.Size = New System.Drawing.Size(60, 23)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Discord"
         '
         'Label4
         '
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Comic Sans MS", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Chewy", 22.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.BottomRight
-        Me.Label4.Location = New System.Drawing.Point(28, 9)
+        Me.Label4.Location = New System.Drawing.Point(3, 7)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(311, 36)
+        Me.Label4.Size = New System.Drawing.Size(349, 51)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "live announcements thing"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -134,10 +134,10 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Comic Sans MS", 10.0!)
-        Me.Label5.Location = New System.Drawing.Point(17, 58)
+        Me.Label5.Font = New System.Drawing.Font("Pink Chicken", 14.25!)
+        Me.Label5.Location = New System.Drawing.Point(17, 57)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(39, 19)
+        Me.Label5.Size = New System.Drawing.Size(37, 23)
         Me.Label5.TabIndex = 2
         Me.Label5.Text = "title"
         '
@@ -187,7 +187,7 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "live announcements thing ~ v2"
+        Me.Text = "live announcements thing ~ v3"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

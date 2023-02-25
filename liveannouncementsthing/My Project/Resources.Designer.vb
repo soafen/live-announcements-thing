@@ -59,5 +59,23 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property LiveStreaming_HasStopped() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("LiveStreaming_HasStopped", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        '''</summary>
+        Friend ReadOnly Property LiveStreaming_IsOn() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("LiveStreaming_IsOn", resourceCulture)
+            End Get
+        End Property
     End Module
 End Namespace
